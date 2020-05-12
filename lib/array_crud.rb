@@ -4,7 +4,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  adam_sandler_characters = ["Happy Gilmore", "Billy Madison", "Sonny Koufax", "Bobby Boucher"]
+  adam_sandler_characters = ["wow", "Billy Madison", "am", "arrays!"]
 end
 
 def add_element_to_end_of_array(array, element)
@@ -16,11 +16,11 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  bobby_boucher = create_an_array.pop
+  arrays! = create_an_array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  happy_gilmore = create_an_array.shift
+  wow = create_an_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
@@ -36,5 +36,5 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-  create_an_array[2] = "Longfellow Deeds"
+  create_an_array[2] = "totally"
 end
