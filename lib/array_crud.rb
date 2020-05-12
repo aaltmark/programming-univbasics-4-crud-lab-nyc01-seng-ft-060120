@@ -8,33 +8,33 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  adam_sandler_characters.push("Zohan")
+  create_an_array.push("Zohan")
 end
 
 def add_element_to_start_of_array(array, element)
-  adam_sandler_characters.unshift("Paul Crewe")
+  create_an_array.unshift("Paul Crewe")
 end
 
 def remove_element_from_end_of_array(array)
-  bobby_boucher = adam_sandler_characters.pop
+  bobby_boucher = create_an_array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  happy_gilmore = adam_sandler_characters.shift
+  happy_gilmore = create_an_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  adam_sandler_characters[2]
+  create_an_array[2]
 end
 
 def retrieve_first_element_from_array(array)
-  adam_sandler_characters[0]
+  create_an_array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  adam_sandler_characters[3]
+  create_an_array[3]
 end
 
 def update_element_from_index(array, index_number, element)
-  adam_sandler_characters[2] = "Longfellow Deeds"
+  create_an_array[2] = "Longfellow Deeds"
 end
