@@ -1,3 +1,4 @@
+adam_sandler_characters = ["Happy Gilmore", "Billy Madison", "Sonny Koufax", "Bobby Boucher"]
 def create_an_empty_array
   []
 end
